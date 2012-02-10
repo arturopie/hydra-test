@@ -5,7 +5,7 @@ gem 'rails', '3.0.3'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'mysql'
+gem 'pg', '0.11.0'
 
 # Use unicorn as the web server
 # gem 'unicorn'
@@ -28,6 +28,6 @@ gem 'mysql'
 # and rake tasks are available in development mode:
 group :development, :test do
    gem 'factory_girl_rails'
-   gem 'hydra', :require => false
+   gem 'hydra', :path => '~/src/hydra', :require => false
    gem 'test-unit'
 end
