@@ -3,5 +3,6 @@ db/*.sqlite3
 log/*.log
 tmp/**/*
 config/hydra.yml
+config/database.yml
 .rvmrc
 .#*
