@@ -3,10 +3,10 @@ workers:
     runners: 2
   - type: ssh
     connect: remote_machine # defined in ~/.ssh/config
-    directory: /absolute/path/on_remote_machine/hydra_test
+    directory: /absolute/path/on_remote_machine/hydra-test
     runners: 2
 sync:
-    directory: /Users/Rodreegez/Projects/hydra_test # absolute path on my machine
+    directory: /absolute/path/on_local_machine/hydra-test # absolute path on my machine
     exclude:
       - tmp
       - log
